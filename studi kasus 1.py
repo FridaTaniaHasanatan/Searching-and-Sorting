@@ -5,8 +5,8 @@ def linear_search(arr, target):
         if arr[i] == target:
             return i
     return -1
-data= [80, 75, 90, 85, 70]
-angka_dicari = 75 #target
+data= [12,7,25,9,15]
+angka_dicari = 25 #target
 hasil = linear_search(data, angka_dicari)
 print(data)
 if hasil !=-1:
