@@ -1,10 +1,10 @@
 print("STUDI KASUS 3")
 print("NAIVE STRING MATCHING")
 # Dokumen / text
-text = "PYTHON ADALAH BAHASA PEMROGRAMAN YANG MUDAH"
+text = "tan imup adalah seorang mahasiswa yang rajin belajar algoritma dan struktur data"
 print(text)
 # Kata yang dicari
-pattern = "MUDAH"
+pattern = "tan imup"
 print("kata yg dicari:", pattern)
 # Proses pencarian
 for i in range(len(text) - len(pattern) + 1):
