@@ -7,9 +7,9 @@ def bubble_sort(arr) :
                 arr [j], arr[j+1] = arr[j+1], arr [j]
     return arr
 # data yang akan diurutkan
-data = [60, 80, 75, 90, 85, 70]
+data = [2,3,1,5,4]
 #panggil fungsi
 hasil = bubble_sort(data)
 #tampilkan hasil
-print ("Data sebelum sorting:", [60, 80, 75, 90, 85, 70])
+print ("Data sebelum sorting:", [2,3,1,5,4])
 print("Data setelah sorting:", hasil)
